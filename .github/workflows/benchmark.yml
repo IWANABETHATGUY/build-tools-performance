@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 60
     strategy:
       matrix:
-        os: [ubuntu-latest]
+        os: [ubuntu-22.04]
         case: [react-1k, react-5k, react-10k, ui-components, rome]
 
     steps:
